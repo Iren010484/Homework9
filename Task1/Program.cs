@@ -11,12 +11,11 @@ int ReadInt(string message)
 
 void NaturalNumbers(int a) 
 {
-if (a > 0)
-{
-    Console.Write($"  {a} ");
-    NaturalNumbers(a-1);
-}
-
+    if (a > 0)
+    {
+        Console.Write($"  {a} ");
+        NaturalNumbers(a-1);
+    }
 }
 
 int n = ReadInt("Введите Число N");
